@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "869295556247",
+    "project_id": "chashi-d876f",
+    "storage_bucket": "chashi-d876f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869295556247:android:e9ec801c2c85cc7f210bd2",
+        "android_client_info": {
+          "package_name": "com.example.chashi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869295556247-dfn6pvo783psu5kv4urljcbprmh4tn3o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chashi",
+            "certificate_hash": "5f2e9ac6d972e16e9f0e2d8555384101470aba80"
+          }
+        },
+        {
+          "client_id": "869295556247-eqi4cdiucmf7rvfckjk54j95p67sqe4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHA9Y66JRA0Alq6QLnx1K3bgZtJBNRkNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869295556247-eqi4cdiucmf7rvfckjk54j95p67sqe4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

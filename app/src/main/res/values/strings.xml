@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">চাষী</string>
+    <string name="capture">ছবি তুলুন</string>
+    <string name="voicetext">ভয়েস চ্যাট</string>
+    <string name="infosend">তথ্যটি পাঠান</string>
+    <string name="ptype">এখানে সমস্যাটি লিখেন.</string>
+    <string name="problem">সমস্যা</string>
+    <string name="website">ওয়েবসাইট</string>
+    <string name="OTP">ওটিপি কোড</string>
+    <string name="verify">কনফার্ম করুন</string>
+    <string name="otpsend">লগ ইন /রেজিস্ট্রেশন করুন</string>
+    <string name="log">লগ আউট</string>
+    <string name="speak">ভয়েস শুনুন</string>
+    <string name="phonetext">আপনার ফোন নম্বর লিখুন...</string>
+    <string name="helpline">হেল্পলাইন</string>
+</resources>
