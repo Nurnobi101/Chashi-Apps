@@ -9,7 +9,8 @@ import android.provider.MediaStore
 import android.speech.tts.TextToSpeech
 import android.view.View
 import android.widget.*
-import com.example.chashi.ml.MobilenetV110224Quant
+
+import com.example.chashi.ml.TfLiteModel
 import org.tensorflow.lite.DataType
 import org.tensorflow.lite.support.image.TensorImage
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
@@ -60,7 +61,7 @@ class Problem : AppCompatActivity(), TextToSpeech.OnInitListener {
         predict.setOnClickListener(View.OnClickListener {
 
             var resize: Bitmap = Bitmap.createScaledBitmap(bitmap, 224,224,true)
-            val model = MobilenetV110224Quant.newInstance(this)
+            val model = TfLiteModel.newInstance(this)
 
             val inputFeature0 = TensorBuffer.createFixedSize(intArrayOf(1, 224, 224, 3), DataType.UINT8)
 
